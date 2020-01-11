@@ -1,34 +1,99 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
-  </head>
-  <body>
-      <div class="container-fluid">
-          <div class="jumbotron">
-                  <h1 class="display-3">Colton Steeve</h1>
-                  <p class="lead">Web Developer | Graphic Designer</p>
-                  <hr class="my-2">
-                  <img id="coltonpic" src="./images/coltonNew.png" alt="Avatar">
-                  <p>More info</p>
-                  <p class="lead">
-                      <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-                  </p>
-          </div>
-      </div>
-      
-    <!-- Optional JavaScript -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-3">Colton Steeve</h1>
+            <p class="lead">Web Developer | Graphic Designer</p>
+            <img id="coltonpic" src="./images/coltonNew.png" alt="Avatar">
+        </div>
+        <h2 id="aboutme">About Me</h2>
+        <hr class="my-2">
+        <p id="aboutmep">Web development is my main area of expertise and I enjoy pulling up a code editor and a browser
+            to make a nice web app. I have taken
+            many programming courses in school and have found that web-based languages are the most interesting and fun
+            to me. Developing for the web is great becuase you essentially get instant feedback when you change part
+            of the code. This is especially true if you have a live preview feature in your editor. I also took a lot of
+            digital art classes that taught me how to do graphic design and typography.</p>
+        <h2 id="projects">Projects</h2>
+        <hr class="my-2">
+        <div id="projectshide">
+            <div class="row">
+                <div class="col">
+                    <a href="https://github.com/coltonsteeve/fact-pwa"><img id="fact" src="./images/fact.png"
+                            alt="FACT"></a>
+                    <h4>FACT PWA</h4>
+                </div>
+
+                <div class="col">
+                    <a href="https://github.com/coltonsteeve/node-express-chat"><img id="chat" src="./images/chat.png"
+                            alt="Chat"></a>
+                    <h4>Chat App</h4>
+                </div>
+
+                <div class="col">
+                    <a href="https://github.com/coltonsteeve/wedding"><img id="wedding" src="./images/wedding.png"
+                            alt="Wedding"></a>
+                    <h4>Wedding Site</h4>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <a href="https://drive.google.com/file/d/1583MlI1-z6_ai7oMVNt2XUEkUMUVgECK/view?usp=sharing"><img
+                            id="typeface" src="./images/typeface.png" alt="Espresso Typeface"></a>
+                    <h4>Espresso Typeface</h4>
+                </div>
+
+                <div class="col">
+                    <a href="https://drive.google.com/file/d/132CO4_cK_LcLbzwFl4Er0fdM-CS1P8hY/view?usp=sharing"><img
+                            id="phone" src="./images/phone.png" alt="Phone Wordplay"></a>
+                    <h4>Phone Wordplay</h4>
+                </div>
+
+                <div class="col">
+                    <a href="https://drive.google.com/file/d/15QvrjjZh5vHQbH6n2FANEaOcXhEAsPvJ/view?usp=sharing"><img
+                            id="typedesign" src="./images/typedesign.png" alt="Type Design"></a>
+                    <h4>Type Design</h4>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+
+    <footer class="container-fluid mb-3 fixed-bottom text-center">
+        <a href="https://github.com/coltonsteeve/">GitHub</a>
+        &#9670;
+        <a href="https://github.com/coltonsteeve/portfolio">Source</a>
+        <a style="color: inherit; text-decoration: none;" href="https://stadia.com">&#9670;</a>
+        <a href="https://www.linkedin.com/in/colton-steeve-aa6b9514a/"><i class="fab fa-linkedin"></i> Colton Steeve</a>
+    </footer>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
     <script src="portfolio.js"></script>
-  </body>
+</body>
+
 </html>

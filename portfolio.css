@@ -1,16 +1,37 @@
+body {
+    text-align: center;
+}
+
 .jumbotron {
     text-align: center;
     background-color: white;
+    margin-bottom: -1em;
 }
 
 #coltonpic {
     border-radius: 50%;
-    height: 10em;
+    height: 11em;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     position: relative;
+}
+
+#aboutme, #projects {
     cursor: pointer;
+}
+
+#fact, #chat, #wedding, #typeface, #phone, #typedesign {
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 10em;
+}
+
+a:active {
+    color: none;
+    text-decoration: none;
 }
